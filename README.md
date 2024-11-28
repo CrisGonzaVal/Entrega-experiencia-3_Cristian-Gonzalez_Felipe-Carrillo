@@ -1,6 +1,6 @@
 # **Entrega Experiencia 3**
 
-**Autor**: Cristian Gonzalez Felipe-Carrillo
+**Autor**: Cristian Gonzalez y Felipe Carrillo
 
 ---
 
@@ -22,9 +22,9 @@
    
 2. **Durante la configuración, selecciona las siguientes opciones:**
 ngmodule
-Framework: Angular
-Template: Blank
-Una vez creado el proyecto, reemplaza la carpeta src con la carpeta proporcionada en esta entrega.
+ -Framework: Angular
+ -Template: Blank
+ -Una vez creado el proyecto, reemplaza la carpeta src con la carpeta proporcionada en esta entrega.
 
 ---
 
