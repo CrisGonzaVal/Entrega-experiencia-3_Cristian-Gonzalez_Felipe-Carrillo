@@ -17,10 +17,10 @@
 
 ## **2. Pasos para crear el proyecto Ionic**
 
-1. Abre una terminal y ejecuta el siguiente comando:
+1. **Abre una terminal y ejecuta el siguiente comando:**
    ionic start MyApp
    
-3. Durante la configuración, selecciona las siguientes opciones:
+2. **Durante la configuración, selecciona las siguientes opciones:**
 ngmodule
 Framework: Angular
 Template: Blank
@@ -29,27 +29,26 @@ Una vez creado el proyecto, reemplaza la carpeta src con la carpeta proporcionad
 ---
 
 ## **3.dependencias QR**
-3. Implementación de captura QR
-3.1. Instalar dependencias necesarias
+1. **Instalar dependencias necesarias**
 Instala el paquete para la captura de QR:
 npm install @zxing/browser
 
-3.2. Instala el generador de códigos QR:
+2. **Instala el generador de códigos QR:**
 npm install angularx-qrcode
 
 ---
 
 ## **4 Ejecutar en Android Studio**
-1. Instala Capacitor para Android:
+1. **Instala Capacitor para Android:**
 npm install @capacitor/android
 
-2. Agrega soporte para Android:
+2. **Agrega soporte para Android:**
 npx cap add android
 
-3. Construye el proyecto:
+3. **Construye el proyecto:**
 ionic build
 
-4. Sincroniza los cambios con Capacitor:
+4. **Sincroniza los cambios con Capacitor:**
 ionic capacitor sync android
 ionic capacitor copy android
 Abre el proyecto en Android Studio:
@@ -58,11 +57,11 @@ ionic capacitor open android
 ---
 
 ## **4.Uso del JSON alojado QR**
-El proyecto utiliza un archivo JSON alojado en la siguiente URL:
+**El proyecto utiliza un archivo JSON alojado en la siguiente URL:**
 https://repodata-rqrl.onrender.com
 
 ---
 
 ## **Notas importantes**
-Puedes reinstalar las dependencias del proyecto con el siguiente comando:
+**Puedes reinstalar las dependencias del proyecto con el siguiente comando:**
 npm install
