@@ -4,7 +4,7 @@
 
 ---
 
-## **Requisitos para instalar**
+## **1. Requisitos para instalar**
 
 1. **Node.js**: Versión 20  
    [Descargar Node.js](https://nodejs.org/)
@@ -15,64 +15,54 @@
 
 ---
 
-## **Pasos para crear el proyecto Ionic**
+## **2. Pasos para crear el proyecto Ionic**
 
 1. Abre una terminal y ejecuta el siguiente comando:
-   ```bash
    ionic start MyApp
-Durante la configuración, selecciona las siguientes opciones:
+   
+3. Durante la configuración, selecciona las siguientes opciones:
 ngmodule
 Framework: Angular
 Template: Blank
 Una vez creado el proyecto, reemplaza la carpeta src con la carpeta proporcionada en esta entrega.
-Implementación de captura QR
-Instalar dependencias necesarias
+
+---
+
+## **3.dependencias QR**
+3. Implementación de captura QR
+3.1. Instalar dependencias necesarias
 Instala el paquete para la captura de QR:
-bash
-Copiar código
 npm install @zxing/browser
-Instala el generador de códigos QR:
-bash
-Copiar código
+
+3.2. Instala el generador de códigos QR:
 npm install angularx-qrcode
-Ejecutar en Android Studio
-Instala Capacitor para Android:
-bash
-Copiar código
+
+---
+
+## **4 Ejecutar en Android Studio**
+1. Instala Capacitor para Android:
 npm install @capacitor/android
-Agrega soporte para Android:
-bash
-Copiar código
+
+2. Agrega soporte para Android:
 npx cap add android
-Construye el proyecto:
-bash
-Copiar código
+
+3. Construye el proyecto:
 ionic build
-Sincroniza los cambios con Capacitor:
-bash
-Copiar código
+
+4. Sincroniza los cambios con Capacitor:
 ionic capacitor sync android
-Copia los archivos a la carpeta de Android:
-bash
-Copiar código
 ionic capacitor copy android
 Abre el proyecto en Android Studio:
-bash
-Copiar código
 ionic capacitor open android
-Uso del JSON alojado
+
+---
+
+## **4.Uso del JSON alojado QR**
 El proyecto utiliza un archivo JSON alojado en la siguiente URL:
 https://repodata-rqrl.onrender.com
 
-Notas importantes
-Puedes reinstalar las dependencias del proyecto con:
-bash
-Copiar código
+---
+
+## **Notas importantes**
+Puedes reinstalar las dependencias del proyecto con el siguiente comando:
 npm install
-Para cualquier problema con los paquetes o configuraciones, revisa la documentación oficial de Ionic, Angular o Capacitor.
-¡Gracias por revisar mi entrega!
-
-go
-Copiar código
-
-Copia y pega este contenido en un archivo llamado `README.md` y colócalo en la raíz de tu proyecto.
