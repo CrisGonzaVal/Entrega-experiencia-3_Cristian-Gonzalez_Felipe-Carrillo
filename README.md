@@ -25,13 +25,14 @@ para correrlo en android studio:
 >npm install @capacitor/android
 >npx cap add android
 
+>ionic build
 >ionic capacitor sync android
 >ionic capacitor copy android
 >ionic capacitor open android
 
+---------------------------------------------------------------------
 
-
---------------------------------------
-
-
+JSON alojado :
+https://repodata-rqrl.onrender.com
+----------------------------------------------------------------------------
 Puedes reinstalar dependencias con npm install desde el archivo package.json
